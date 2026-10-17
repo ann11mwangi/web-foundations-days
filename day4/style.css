@@ -1,0 +1,77 @@
+:root {
+  --bg: #f5f5f5;
+  --text: #222222;
+  --card: #ffffff;
+  --border: #bbbbbb;
+  --button-bg: #2563eb;
+  --button-text: #ffffff;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #eeeeee;
+  --card: #1e1e1e;
+  --border: #444444;
+  --button-bg: #60a5fa;
+  --button-text: #111111;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 6px;
+}
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
