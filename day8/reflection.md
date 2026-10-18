@@ -1,0 +1,7 @@
+# Reflection
+
+The most difficult concept in the course for me was [following one request through a whole system, from the browser through the load balancer, cache and database]. At first the components felt like a list of names to memorise. What helped me was drawing the path of a single request step by step and asking of every box, "What problem does this solve?" Writing one sentence for each component, and then actually running my JavaScript and SQL instead of only reading about them, turned the ideas into something I could explain in my own words.
+
+Based on the feedback I received on my capstone, I would improve [YOUR FEEDBACK POINT, for example: how I explained my trade-offs, or how clearly I presented the architecture diagram]. Next time I would add concrete numbers to every decision, test the design against a worst case such as a big ticket sale, and rehearse my explanation out loud before presenting it.
+
+Next, I want to learn how to build a real backend, for example with Node.js and a SQL database, so that my API designs become working services instead of documents. I also want to learn about authentication and automated testing, because both matter in real systems, and I will keep building small projects and publishing them on GitHub to practise.
